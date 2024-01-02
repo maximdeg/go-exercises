@@ -9,19 +9,19 @@ func main() {
 	valor2 := 2
 
 	if valor1 == 1 {
-		fmt.Println("Es 1")
+		fmt.Println("Is 1")
 	} else {
-		fmt.Println("No es 1")
+		fmt.Println("Is not 1")
 	}
 
 	// with AND
 	if valor1 == 1 && valor2 == 2 {
-		fmt.Println("AND es verdad")
+		fmt.Println("AND is True")
 	}
 
 	// with OR
 	if valor1 == 0 || valor2 == 2 {
-		fmt.Println("Es verdad, OR")
+		fmt.Println("Is true, OR")
 	}
 
 	/*value3, err := strconv.Atoi("asdasd")
@@ -34,19 +34,19 @@ func main() {
 
 	switch modulo := 5 % 2; modulo {
 	case 0:
-		fmt.Println("Es par")
+		fmt.Println("Is even")
 	default:
-		fmt.Println("Es impar")
+		fmt.Println("Is odd")
 	}
 
 	// Switch without condition
 	value := 200
 	switch {
 	case value > 100:
-		fmt.Println("Es mayor a 100")
+		fmt.Println("Is more than 100")
 	case value < 0:
-		fmt.Println("Es menor a 0")
+		fmt.Println("Is less than 0")
 	default:
-		fmt.Println("No es ninguna, es:", value)
+		fmt.Println("Is either, is:", value)
 	}
 }
